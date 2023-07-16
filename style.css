@@ -8,11 +8,13 @@
 .btn-primary{
     color: #ffffff;
     background-color: rgb(233, 160, 27);
+    border-radius: 10px;
     padding: 15px 20px;
     font-size: 1.25rem;
 }
 header{
-    padding: 50px 175px;
+    margin: 5px;
+    padding:  20px 175px;
     background-color: rgba(255, 144, 14, 0.10);
 }
 
@@ -20,7 +22,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   margin: 40px;
+    margin: 40px;
+   
 
 }
 .nav-title{
@@ -40,7 +43,7 @@ nav > ul a{
     font-size: 1.25rem;
 }
 /* banner section starts */
-.banner{
+.banner-container{
    margin: auto;
    text-align: center;
    padding: 45px;
@@ -49,6 +52,7 @@ nav > ul a{
 .banner-title{
     font-size: 3.45rem;
     font-weight: 700;
+    color: #131313  ;
 }
 .banner-description{
     color: #727272;
@@ -56,8 +60,75 @@ nav > ul a{
     margin: 0px 30px;
 }
 .banner .btn-primary{
-   margin: 16px;
+   margin: 20px;
 }
 .banner img{
     width: 100%;
+}
+/* main section starts */
+/* feature starts */
+.teams-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    padding-top: 50px ;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 2.50rem;
+}
+.teams-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.teams-title .feature{
+    color: #FF900E;
+    font-weight: 700;
+}
+.teams-description{
+    padding: 20px 0px;
+}
+
+/* fact section starts */
+.facts{
+    margin: 30px 10px;
+}
+.fact-title{
+    font-size: 2.50rem;
+}
+.fact-description{
+    padding-top: 30px;
+    color: #727272;
+}
+.card-section{
+    display: flex;
+   justify-content: space-around;
+   padding-top: 10px;
+   
+}
+.card{
+    border: 2px solid tomato;
+    border-radius: 5px;
+    text-align: center;
+    padding: 45px;
+
+  
+}
+.card .cart-stat{
+    font-size: 2.25rem;
+    color: #727272;
+    padding: 10px;
+}
+.card .card-description{
+    font-size: 1.20rem;
+    color: #727272;
 }
